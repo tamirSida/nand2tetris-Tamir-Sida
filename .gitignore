@@ -1,0 +1,65 @@
+# Ignore all .zip files
+*.zip
+
+# Ignore compiled files and binaries
+*.out
+*.log
+*.obj
+*.bin
+*.hex
+*.lst
+*.elf
+
+# Ignore simulation files
+*.vcd
+*.wlf
+*.fsdb
+*.h5
+*.tcl
+
+# Ignore synthesis and implementation files
+*.edf
+*.rpt
+*.ngc
+*.xco
+*.cso
+*.dcp
+*.xdc
+*.bit
+*.twr
+*.ncd
+*.bgn
+*.vds
+
+# Ignore temporary editor files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore IDE-specific files and folders
+.idea/
+.vscode/
+*.user
+*.ipch
+*.DS_Store
+
+# Ignore build and output directories
+build/
+out/
+sim/
+obj/
+work/
+
+# Ignore test results
+*.log
+*.dat
+*.jou
+
+# Ignore Python-generated files if using scripts
+*.pyc
+__pycache__/
+
+# Add any specific directories/files to ignore here
+my_custom_temp/
+
